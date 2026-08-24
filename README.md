@@ -14,3 +14,6 @@ Build a book inventory = index/style 6
 Build Technical Documentation page = index/style 7
 
 Build availability table = index/style 8
+
+Newspaper Layout = index/style9
+
