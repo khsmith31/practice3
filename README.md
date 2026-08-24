@@ -15,5 +15,6 @@ Build Technical Documentation page = index/style 7
 
 Build availability table = index/style 8
 
-Newspaper Layout = index/style9
+Newspaper Layout = index/style 9
 
+Product Landing Page = index/style 10 
