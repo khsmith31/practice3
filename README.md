@@ -19,4 +19,6 @@ Newspaper Layout = index/style 9
 
 Product Landing Page = index/style 10 
 
-Moon Orbit  index/style 11
+Moon Orbit = index/style 11
+
+Personal Portfolio = index/style 12
