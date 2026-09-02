@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <!-- Load the p5.js library for drawing shapes -->
+  <script src="https://cloudflare.com"></script>
+</head>
+<body>
+  <script>
+    // Set up a 100x100 canvas scaled up so it's easy to see
+    function setup() {
+      createCanvas(400, 400); 
+      scale(4); // Scales the 100x100 grid to fill the 400x400 space
+      noLoop();
+    }
+
+    // Custom helper function to match Jiki's syntax perfectly
+    function triangleShape(x1, y1, x2, y2, x3, y3, colorName) {
+      fill(colorName);
+      noStroke();
+      triangle(x1, y1, x2, y2, x3, y3);
+    }
+
+    function draw() {
+      background("#ebebeb"); // Light gray canvas background
+
+      // --- PASTE YOUR JIKI EXERCISE CODE HERE ---
+      triangleShape(10, 40, 10, 5, 50, 40, "brown");
+      triangleShape(10, 40, 5, 60, 50, 95, "white");
+      triangleShape(10, 40, 50, 40, 50, 95, "orange");
+      
+      // Your mirrored right ear solution:
+      triangleShape(90, 40, 90, 5, 50, 40, "brown");
+      // ------------------------------------------
+    }
+  </script>
+</body>
+</html>
